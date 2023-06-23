@@ -1,0 +1,8 @@
+./ibis[duckdb,polars,deltalake]
+
+numpy
+pandas
+accelerate
+transformers[torch]
+torch
+
