@@ -1,7 +1,7 @@
 python-dotenv
 requests
 
-./ibis[duckdb,polars,deltalake]
+ibis-framework[duckdb,polars,deltalake] @ git+https://github.com/ibis-project/ibis@master
 
 numpy
 pandas
