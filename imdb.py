@@ -14,6 +14,9 @@ from ibis.expr.operations import udf
 # configure ibis
 ibis.options.interactive = True
 
+# configure torch
+device = 0 if torch.cuda.is_available() else -1
+
 # data
 imdb_titles = ibis.examples.imdb_title_basics.fetch()
 imdb_ratings = ibis.examples.imdb_title_ratings.fetch()
